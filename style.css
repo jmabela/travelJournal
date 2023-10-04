@@ -57,7 +57,7 @@ nav {
     width: 126px;
     height: 168px;
     border-radius: 5px;
-    margin-bottom: 9px;
+    
 }
 
 .card--drop{
@@ -65,17 +65,32 @@ nav {
 } 
 
 .card--info{
+    height: 168px;
     display: flex;
-    align-items: center;
+    align-items: left;
+    padding-left: 25px;
+    flex-direction: column;
+    color:#2B283A;
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+.card--info-add{
+    margin-top: 1%;
+    height: 20px;
+    display: flex;
+    flex-direction: row;
 }
 
 .card--country {
-    padding-left: 5%;
-    padding-right: 5%;
+    font-size: 11;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 .card--link{
     color:#918E9B;
+    font-size: 11;
 
 }
 
@@ -83,10 +98,21 @@ nav {
     /* overflow: hidden; */
     text-overflow: ellipsis;
     font-size: 25px;
-    color:#2B283A;
     flex-direction: row;
     display: block;
+    margin-top: 0.5%;
+    margin-bottom: 5px;
 }
+
+.card--dates{
+    margin: 0;
+    font-weight: 600;
+    font-size: 11px;
+}
+
+/* .card--description{
+    margin-bottom: 25px;
+} */
 
 
 
