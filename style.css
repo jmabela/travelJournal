@@ -19,7 +19,7 @@ nav {
     display: flex;
     position: relative;
     overflow: hidden;
-    font-weight: 500;
+    font-weight: 300;
     font-size: 14.46px;
     color: white;
     padding: 0 45%;
@@ -33,3 +33,60 @@ nav {
     top: 10px;
     left: 43%;
 }
+
+/* .cards-list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+} */
+
+.card{
+    height: 168px;
+    flex: 0 0 auto; 
+    padding: 40px;        
+    display: flex;  
+    margin-top: 50px;
+    margin-bottom: 16px;       
+    align-items: center; 
+    flex-direction: row; 
+    position: relative;
+}
+
+.card--img{
+    width: 126px;
+    height: 168px;
+    border-radius: 5px;
+    margin-bottom: 9px;
+}
+
+.card--drop{
+    height: 14px;
+} 
+
+.card--info{
+    display: flex;
+    align-items: center;
+}
+
+.card--country {
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.card--link{
+    color:#918E9B;
+
+}
+
+.card--h1 {
+    /* overflow: hidden; */
+    text-overflow: ellipsis;
+    font-size: 25px;
+    color:#2B283A;
+    flex-direction: row;
+    display: block;
+}
+
+
+
