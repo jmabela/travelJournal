@@ -1,4 +1,8 @@
-# React + Vite
+# Travel Journal
+
+An immersive React-based travel journaling application designed to document and share my unforgettable journeys
+
+<img src='./public/images/App.png' />
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
